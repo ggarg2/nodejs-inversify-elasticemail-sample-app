@@ -1,0 +1,36 @@
+{
+    "appConfig": {
+        "hostConfig": {
+            "port": 7000
+        },
+        "dbConfig": {
+            "url": "<database URL like mongodb://localhost/admin or other repository>"
+        },
+        "smsConfig": {
+            "username": "<enter username like <abcd>",
+            "password": "<enter password like <1234>",
+            "sms_host": "<enter the host name like <login.redsms.in>",
+            "sms_path": "<enter api path like /API/SendMessage.ashx?>",
+            "sms_sender_id": "<enter sender id given by sms>",
+            "sms_type": "<sms type like <transactional, promotional, long code, short code, missed call, voice sms>"
+        },
+        "mailConfig": {
+            "username": "<enter username like <abcd>",
+            "api_key": "<enter password and api key like <1234>",
+            "host": "<enter the host name like <api.elasticemail.com>",
+            "path": "<enter api path like </v2/email/send/mail>",
+            "method": "<Get, Post>",
+            "trackClicks": true,
+            "template": "<template name like welcome mail>",
+            "isTransactional": true,
+            "isPromotional":false,
+            "isMissed":false,
+            "isVoice":false,
+            "isShort":false,
+            "from": "<enter username like abcd>",
+            "sender_id": "<ammysidhu059@gmail.com>",
+            "from_name": "Test Bag2Bag",
+            "welcome_subject": "Welcome to you We are very excited to have you here!"
+        }
+    }
+}

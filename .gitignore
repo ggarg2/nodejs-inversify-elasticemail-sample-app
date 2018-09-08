@@ -1,0 +1,4 @@
+node_modules/
+app.log
+info.log
+exceptions.log
